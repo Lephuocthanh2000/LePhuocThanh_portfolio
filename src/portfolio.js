@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Blockchain DevOps Engineer 🚀 with extensive experience in designing, deploying, and managing blockchain infrastructures, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines to build scalable and secure decentralized applications."
   ),
-  resumeLink:"https://drive.google.com/drive/folders/1-fLOjDRE226CFTcUfQs0N0Qv7i5_n1Dk?usp=sharing", // Set to empty to hide the button
+  resumeLink:"https://drive.google.com/file/d/1CWP9m909w9nyFxW0ZSj3n2Ge-VXMNTx0/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
