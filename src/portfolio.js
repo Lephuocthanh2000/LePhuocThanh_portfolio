@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Blockchain DevOps Engineer 🚀 with extensive experience in designing, deploying, and managing blockchain infrastructures, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines to build scalable and secure decentralized applications."
   ),
-  resumeLink:"https://drive.google.com/file/d/1CWP9m909w9nyFxW0ZSj3n2Ge-VXMNTx0/view?usp=sharing", // Set to empty to hide the button
+  resumeLink:"https://drive.google.com/file/d/1CWP9m909w9nyFxW0ZSj3n2Ge-VXMNTx0/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +37,7 @@ const socialMediaLinks = {
   gmail: "thanhlpdevops@gmail.com",
   gitlab: "https://gitlab.com/Lephuocthanh2000",
   facebook: "https://www.facebook.com/Lephuocthanh2000",
-  twitter: "https://x.com/LePhuoc06982807",
+  twitter: "https://x.com/lephuocthanh200",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -120,7 +120,7 @@ const educationInfo = {
     {
       schoolName: "VNUHCM - University of Information Technology (UIT)",
       logo: require("./assets/images/Logo_UIT_Web.png"),
-      subHeader: "Bachelor of Science in Information Technology",
+      subHeader:emoji ("🎓 Bachelor of Science in Information Technology"),
       duration: "September 2018 - June 2022",
       desc: "Graduated with a strong focus on blockchain technology and DevOps practices.",
       descBullets: [
@@ -412,7 +412,7 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
+  title: "Resume-Devops-LePhuocThanh",
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
