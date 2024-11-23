@@ -126,7 +126,8 @@ const educationInfo = {
       descBullets: [
         "Completed a thesis on blockchain integration for decentralized applications",
         "Studied advanced topics such as Cloud Computing, Network Security, and Database Management"
-      ]
+      ],
+      schoolWedsite: "https://uit.edu.vn/"
     },
     {
       schoolName: "Nguyen Binh Khiem High School for the Gifted - Vinh Long",
@@ -137,7 +138,8 @@ const educationInfo = {
       descBullets: [
         "Won multiple provincial and city-level awards in chemistry competitions",
         "Active member of the programming club"
-      ]
+      ],
+      schoolWedsite: "https://c3nguyenbinhkhiem.vinhlong.edu.vn/"
     }
     
   ]
@@ -175,7 +177,7 @@ const workExperiences = {
       company: "Ziichat",
       companylogo: require("./assets/images/ziichatLogo.png"), // Logo của Ziichat
       date: "10/2024 – present",
-      desc: "At Ziichat (company website: https://ziichat.com), we focus on secure communication solutions powered by blockchain technology. My role involves managing deployments, maintaining infrastructure, and ensuring robust security in all operations. Key responsibilities include creating automated pipelines, deploying containerized applications, and monitoring system health.",
+      desc: " ZiiChat is a dynamic software company based in Can Tho city, Vietnam, specializing in social media and communication platforms. Our flagship product, ZiiChat, is a fast, secure messaging app designed to connect people worldwide with ease. At ZiiChat, we prioritize innovation and user satisfaction, delivering cutting-edge solutions for seamless communication. Our mission is to create secure, user-friendly platforms that bring people closer together, regardless of distance",
       descBullets: [
         "Developed CI/CD pipelines with tools like Jenkins, Azure DevOps, and GitLab CI/CD for seamless software delivery.",
         "Containerized applications using Docker and Kubernetes, orchestrated deployments with Helm.",
@@ -183,7 +185,8 @@ const workExperiences = {
         "Monitored system performance and reliability with Prometheus and Grafana.",
         "Collaborated on blockchain-based messaging solutions to enhance security and efficiency.",
         "Ensured end-to-end encryption and real-time notification systems for secure communication."
-      ]
+      ],
+      companyWebsite : "https://ziichat.com"
     },
     {
       role: "Blockchain DevOps Engineer",
@@ -191,7 +194,7 @@ const workExperiences = {
       
       companylogo: require("./assets/images/globalChainLogo.png"), // Logo công ty GlobalChain
       date: "10/2023 – 10/2024",
-      desc: "At GlobalChain (company website: https://globalchain.vn), we specialize in blockchain software solutions, with our flagship product, Schat, designed to enhance data security and optimize workflows for law enforcement through private blockchain technology. My responsibilities include developing and deploying real-world blockchain systems on Ethereum and Hyperledger, creating smart contracts, researching advanced blockchain techniques, and implementing end-to-end (E2E) message encryption and push notifications.",
+      desc: "At GlobalChain specialize in blockchain software solutions, with our flagship product, Schat, designed to enhance data security and optimize workflows for law enforcement through private blockchain technology. My responsibilities include developing and deploying real-world blockchain systems on Ethereum and Hyperledger, creating smart contracts, researching advanced blockchain techniques, and implementing end-to-end (E2E) message encryption and push notifications.",
       descBullets: [
         "Developed and deployed Ethereum and Hyperledger blockchain systems to enhance data security.",
         "Created and deployed smart contracts to enable secure transactions and workflows.",
@@ -200,7 +203,8 @@ const workExperiences = {
         "Containerized applications using Docker and Kubernetes, managed deployments using Helm/Charts.",
         "Managed infrastructure provisioning using Ansible and Terraform to ensure consistent environments.",
         "Monitored performance and system health using Prometheus and Grafana, ensuring optimal operation."
-      ]
+      ],
+      companyWebsite : "https://globalchain.vn"
       
     },
     {
@@ -214,7 +218,8 @@ const workExperiences = {
         "Used PostgreSQL for data storage, ensuring data integrity and security.",
         "Leveraged RabbitMQ for communication between application components, enhancing flexibility.",
         "Learned and applied best practices for software architecture, focusing on high availability and fault tolerance."
-      ]
+      ],
+      companyWebsite : "https://successsoftware.global/"
     }    
   ]
 };
@@ -425,7 +430,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "@LePhuoc06982807", //Replace "twitter" with your twitter username without @
+  userName: "lephuocthanh200", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
