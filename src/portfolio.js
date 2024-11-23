@@ -21,12 +21,11 @@ const illustration = {
 
 const greeting = {
   username: "Le Phuoc Thanh",
-  title: "Hi all, I'm Phuoc Thanh -Blockchain DevOps Engineer",
+  title: "Hi all, I'm Phuoc Thanh - Blockchain DevOps Engineer",
   subTitle: emoji(
     "A passionate Blockchain DevOps Engineer 🚀 with extensive experience in designing, deploying, and managing blockchain infrastructures, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines to build scalable and secure decentralized applications."
   ),
-  resumeLink:
-    "https://drive.google.com/drive/folders/1-fLOjDRE226CFTcUfQs0N0Qv7i5_n1Dk?usp=sharing", // Set to empty to hide the button
+  resumeLink:"https://drive.google.com/drive/folders/1-fLOjDRE226CFTcUfQs0N0Qv7i5_n1Dk?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,6 +37,7 @@ const socialMediaLinks = {
   gmail: "thanhlpdevops@gmail.com",
   gitlab: "https://gitlab.com/Lephuocthanh2000",
   facebook: "https://www.facebook.com/Lephuocthanh2000",
+  twitter: "https://x.com/LePhuoc06982807",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
