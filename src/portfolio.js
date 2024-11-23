@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Le Phuoc Thanh",
+  title: "Hi all, I'm Phuoc Thanh -Blockchain DevOps Engineer",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Blockchain DevOps Engineer 🚀 with extensive experience in designing, deploying, and managing blockchain infrastructures, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines to build scalable and secure decentralized applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/drive/folders/1-fLOjDRE226CFTcUfQs0N0Qv7i5_n1Dk?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Lephuocthanh2000",
+  linkedin: "https://www.linkedin.com/in/lephuocthanh2212/",
+  gmail: "thanhlpdevops@gmail.com",
+  gitlab: "https://gitlab.com/Lephuocthanh2000",
+  facebook: "https://www.facebook.com/Lephuocthanh2000",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,65 +48,37 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "INNOVATIVE BLOCKCHAIN DEVOPS ENGINEER EXPLORING CUTTING-EDGE TECHNOLOGIES",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design, deploy, and maintain robust blockchain infrastructures for decentralized applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Automate CI/CD pipelines for seamless deployment and scalability"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate cloud services like AWS, Azure, and Digital Ocean to enhance performance and efficiency"
+    ),
+    emoji(
+      "⚡ Manage containerized environments using Docker and Kubernetes for scalability and reliability"
     )
   ],
+  
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "ubuntu",
+      fontAwesomeClassname: "fab fa-ubuntu"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -115,7 +87,27 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "gitlab ",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
+      skillName: "cloudflare",
+      fontAwesomeClassname: "fab fa-cloudflare"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,24 +118,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "VNUHCM - University of Information Technology (UIT)",
+      logo: require("./assets/images/Logo_UIT_Web.png"),
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "September 2018 - June 2022",
+      desc: "Graduated with a strong focus on blockchain technology and DevOps practices.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Completed a thesis on blockchain integration for decentralized applications",
+        "Studied advanced topics such as Cloud Computing, Network Security, and Database Management"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Nguyen Binh Khiem High School for the Gifted - Vinh Long",
+      logo: require("./assets/images/Nbk.png"),
+      subHeader: "This is a high school that is among the top in Southern Vietnam",
+      duration: "September 2015 - May 2018",
+      desc: "Excelled in chemistry while developing a strong passion for information technology.",
+      descBullets: [
+        "Won multiple provincial and city-level awards in chemistry competitions",
+        "Active member of the programming club"
+      ]
     }
+    
   ]
 };
 
@@ -153,19 +149,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Blockchain",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "DevOps",
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     }
+    
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true  // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -174,30 +171,51 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Junior DevOps Engineer",
+      company: "Ziichat",
+      companylogo: require("./assets/images/ziichatLogo.png"), // Logo của Ziichat
+      date: "10/2024 – present",
+      desc: "At Ziichat (company website: https://ziichat.com), we focus on secure communication solutions powered by blockchain technology. My role involves managing deployments, maintaining infrastructure, and ensuring robust security in all operations. Key responsibilities include creating automated pipelines, deploying containerized applications, and monitoring system health.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed CI/CD pipelines with tools like Jenkins, Azure DevOps, and GitLab CI/CD for seamless software delivery.",
+        "Containerized applications using Docker and Kubernetes, orchestrated deployments with Helm.",
+        "Provisioned and maintained infrastructure using Ansible and Terraform.",
+        "Monitored system performance and reliability with Prometheus and Grafana.",
+        "Collaborated on blockchain-based messaging solutions to enhance security and efficiency.",
+        "Ensured end-to-end encryption and real-time notification systems for secure communication."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Blockchain DevOps Engineer",
+      company: "GlobalChain Co., Ltd.",
+      
+      companylogo: require("./assets/images/globalChainLogo.png"), // Logo công ty GlobalChain
+      date: "10/2023 – 10/2024",
+      desc: "At GlobalChain (company website: https://globalchain.vn), we specialize in blockchain software solutions, with our flagship product, Schat, designed to enhance data security and optimize workflows for law enforcement through private blockchain technology. My responsibilities include developing and deploying real-world blockchain systems on Ethereum and Hyperledger, creating smart contracts, researching advanced blockchain techniques, and implementing end-to-end (E2E) message encryption and push notifications.",
+      descBullets: [
+        "Developed and deployed Ethereum and Hyperledger blockchain systems to enhance data security.",
+        "Created and deployed smart contracts to enable secure transactions and workflows.",
+        "Implemented end-to-end encryption for secure messaging and real-time push notifications.",
+        "Automated CI/CD pipelines using Jenkins, Azure DevOps, and GitLab CI/CD for efficient software delivery.",
+        "Containerized applications using Docker and Kubernetes, managed deployments using Helm/Charts.",
+        "Managed infrastructure provisioning using Ansible and Terraform to ensure consistent environments.",
+        "Monitored performance and system health using Prometheus and Grafana, ensuring optimal operation."
+      ]
+      
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Fresher Java Developer",
+      company: "Success Software Service",
+      companylogo: require("./assets/images/Successsoftwareservice.png"), // Logo công ty Success Software
+      date: "5/2022 – 7/2022",
+      desc: "In this role, I had the opportunity to learn and develop crucial software development skills. I actively participated in building a backend application, utilizing knowledge of microservices, PostgreSQL, and RabbitMQ.",
+      descBullets: [
+        "Developed and deployed microservices for the backend application, optimizing performance and scalability.",
+        "Used PostgreSQL for data storage, ensuring data integrity and security.",
+        "Leveraged RabbitMQ for communication between application components, enhancing flexibility.",
+        "Learned and applied best practices for software architecture, focusing on high availability and fault tolerance."
+      ]
+    }    
   ]
 };
 
@@ -212,34 +230,62 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // title: "Big Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  // projects: [
+  //   {
+  //     image: require("./assets/images/saayaHealthLogo.webp"),
+  //     projectName: "Saayahealth",
+  //     projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //     footerLink: [
+  //       {
+  //         name: "Visit Website",
+  //         url: "http://saayahealth.com/"
+  //       }
+  //       //  you can add extra buttons here.
+  //     ]
+  //   },
+  //   {
+  //     image: require("./assets/images/nextuLogo.webp"),
+  //     projectName: "Nextu",
+  //     projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //     footerLink: [
+  //       {
+  //         name: "Visit Website",
+  //         url: "http://nextu.se/"
+  //       }
+  //     ]
+  //   }
+  // ],
+  // title: "Big Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  // projects: [
+  //   {
+  //     image: require("./assets/images/globalChainLogo.png"),
+  //     projectName: "GlobalChain",
+  //     projectDesc: "Developed and deployed blockchain systems using Ethereum and Hyperledger for enhanced data security in law enforcement. Worked on smart contract creation and integration, automated CI/CD pipelines, and implemented end-to-end encryption for secure communications.",
+  //     footerLink: [
+  //       {
+  //         name: "Visit Website",
+  //         url: "http://globalchain.vn/"
+  //       }
+  //       //  you can add extra buttons here.
+  //     ]
+  //   },
+    // {
+    //   image: require("./assets/images/successSoftwareLogo.png"),
+    //   projectName: "Success Software Service",
+    //   projectDesc: "Developed backend microservices using PostgreSQL and RabbitMQ. Optimized performance, ensured data integrity, and facilitated communication between components to enhance the scalability and flexibility of the system.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "http://successsoftware.vn/" // Replace with the actual URL of the website
+    //     }
+    //   ]
+    // }
+  // ],
+
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +346,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +370,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +389,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +402,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,21 +415,21 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  title: emoji("Contact Me 📞"),
+  subtitle: "Let's connect! Whether it's to discuss a project or just say hello, I'm always happy to chat.",
+  number: "+84-816822212", // Cập nhật số điện thoại của bạn
+  email_address: "thanhlpdevops@gmail.com" // Thay đổi email của bạn
+
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "@LePhuoc06982807", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
